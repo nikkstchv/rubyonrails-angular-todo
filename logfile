@@ -1,0 +1,4 @@
+2021-06-30 07:54:17.181 MSK [88026] FATAL:  database files are incompatible with server
+2021-06-30 07:54:17.181 MSK [88026] DETAIL:  The data directory was initialized by PostgreSQL version 12, which is not compatible with this version 13.3.
+2021-06-30 08:20:03.693 MSK [91376] FATAL:  database files are incompatible with server
+2021-06-30 08:20:03.693 MSK [91376] DETAIL:  The data directory was initialized by PostgreSQL version 12, which is not compatible with this version 13.3.
