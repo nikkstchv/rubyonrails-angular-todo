@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  get "/projects", to: "project#index"
-  patch "/projects/:project_id/todos/:todo_id", to: "project#do"
-  post "/todos", to: "project#new"
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+
+  resources :projects, only: [:index]  do
+    resources :todos, only: [:update]
+  end
+  resources :todos, only: [:create]
+
 end
